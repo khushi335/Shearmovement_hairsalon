@@ -1,0 +1,2694 @@
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /z0f76a1d14fd21a8fb5fd0d03e0fdc3d3cedae52f
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /z0f76a1d14fd21a8fb5fd0d03e0fdc3d3cedae52f
+Not Found: /z0f76a1d14fd21a8fb5fd0d03e0fdc3d3cedae52f
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Internal Server Error: /appointment/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 154, in appointment
+    send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [admin_email])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 93, in open
+    self.connection.starttls(context=self.ssl_context)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 790, in starttls
+    self.sock = context.wrap_socket(self.sock,
+  File "/opt/alt/python310/lib64/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/opt/alt/python310/lib64/python3.10/ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "/opt/alt/python310/lib64/python3.10/ssl.py", line 1375, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'smtp.gmail.com'. (_ssl.c:1017)
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /z0f76a1d14fd21a8fb5fd0d03e0fdc3d3cedae52f
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /.well-known/security.txt
+Not Found: /.well-known/security.txt
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Internal Server Error: /appointment/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 154, in appointment
+    send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [admin_email])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 93, in open
+    self.connection.starttls(context=self.ssl_context)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 790, in starttls
+    self.sock = context.wrap_socket(self.sock,
+  File "/opt/alt/python310/lib64/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/opt/alt/python310/lib64/python3.10/ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "/opt/alt/python310/lib64/python3.10/ssl.py", line 1375, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'smtp.gmail.com'. (_ssl.c:1017)
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /sitemap.xml
+Not Found: /robots.txt
+Not Found: /sitemap.xml
+Not Found: /robots.txt
+Not Found: /favicon.ico
+Not Found: /.well-known/security.txt
+Not Found: /static/img/favicon.ico
+Not Found: /.well-known/security.txt
+Not Found: /.well-known/security.txt
+Not Found: /.well-known/security.txt
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/images/los.png
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /getcmd
+Not Found: /static/img/favicon.ico
+[UID:1788][4072727] Child process with pid: 4140138 was killed by signal: 15, core dumped: no
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 96, in contact
+    send_mail(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 93, in open
+    self.connection.starttls(context=self.ssl_context)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 790, in starttls
+    self.sock = context.wrap_socket(self.sock,
+  File "/opt/alt/python310/lib64/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/opt/alt/python310/lib64/python3.10/ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "/opt/alt/python310/lib64/python3.10/ssl.py", line 1375, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'smtp.gmail.com'. (_ssl.c:1017)
+Not Found: /favicon.ico
+Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 96, in contact
+    send_mail(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 857, in create_connection
+    raise err
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 845, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+Not Found: /favicon.ico
+Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 96, in contact
+    send_mail(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 857, in create_connection
+    raise err
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 845, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Internal Server Error: /appointment/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 154, in appointment
+    send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [admin_email])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 836, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+Internal Server Error: /appointment/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 154, in appointment
+    send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [admin_email])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 93, in open
+    self.connection.starttls(context=self.ssl_context)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 790, in starttls
+    self.sock = context.wrap_socket(self.sock,
+  File "/opt/alt/python310/lib64/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/opt/alt/python310/lib64/python3.10/ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "/opt/alt/python310/lib64/python3.10/ssl.py", line 1375, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'smtp.gmail.com'. (_ssl.c:1017)
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 27, in index
+    recipient_list=[settings.ADMIN_EMAIL],
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 83, in __getattr__
+    val = getattr(_wrapped, name)
+AttributeError: 'Settings' object has no attribute 'ADMIN_EMAIL'
+Not Found: /favicon.ico
+Traceback (most recent call last):
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/passenger_wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 81, in __getattr__
+    self._setup(name)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 68, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 166, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/settings.py", line 146, in <module>
+    CONTACT_EMAIL = config('CONTACT_EMAIL')
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/decouple.py", line 248, in __call__
+    return self.config(*args, **kwargs)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/decouple.py", line 107, in __call__
+    return self.get(*args, **kwargs)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/decouple.py", line 92, in get
+    raise UndefinedValueError('{} not found. Declare it as envvar or define a default value.'.format(option))
+decouple.UndefinedValueError: CONTACT_EMAIL not found. Declare it as envvar or define a default value.
+Traceback (most recent call last):
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/passenger_wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 81, in __getattr__
+    self._setup(name)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 68, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 166, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/settings.py", line 146, in <module>
+    CONTACT_EMAIL = config('CONTACT_EMAIL')
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/decouple.py", line 248, in __call__
+    return self.config(*args, **kwargs)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/decouple.py", line 107, in __call__
+    return self.get(*args, **kwargs)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/decouple.py", line 92, in get
+    raise UndefinedValueError('{} not found. Declare it as envvar or define a default value.'.format(option))
+decouple.UndefinedValueError: CONTACT_EMAIL not found. Declare it as envvar or define a default value.
+[UID:1788][399567] Child process with pid: 399614 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/passenger_wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 81, in __getattr__
+    self._setup(name)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 68, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 166, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/settings.py", line 146, in <module>
+    CONTACT_EMAIL = config('CONTACT_EMAIL')
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/decouple.py", line 248, in __call__
+    return self.config(*args, **kwargs)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/decouple.py", line 107, in __call__
+    return self.get(*args, **kwargs)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/decouple.py", line 92, in get
+    raise UndefinedValueError('{} not found. Declare it as envvar or define a default value.'.format(option))
+decouple.UndefinedValueError: CONTACT_EMAIL not found. Declare it as envvar or define a default value.
+[UID:1788][399567] Child process with pid: 399638 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/passenger_wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 81, in __getattr__
+    self._setup(name)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 68, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 166, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/settings.py", line 146, in <module>
+    CONTACT_EMAIL = config('CONTACT_EMAIL')
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/decouple.py", line 248, in __call__
+    return self.config(*args, **kwargs)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/decouple.py", line 107, in __call__
+    return self.get(*args, **kwargs)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/decouple.py", line 92, in get
+    raise UndefinedValueError('{} not found. Declare it as envvar or define a default value.'.format(option))
+decouple.UndefinedValueError: CONTACT_EMAIL not found. Declare it as envvar or define a default value.
+[UID:1788][399567] Child process with pid: 399779 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/passenger_wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 81, in __getattr__
+    self._setup(name)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 68, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 166, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/settings.py", line 146, in <module>
+    CONTACT_EMAIL = config('CONTACT_EMAIL')
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/decouple.py", line 248, in __call__
+    return self.config(*args, **kwargs)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/decouple.py", line 107, in __call__
+    return self.get(*args, **kwargs)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/decouple.py", line 92, in get
+    raise UndefinedValueError('{} not found. Declare it as envvar or define a default value.'.format(option))
+decouple.UndefinedValueError: CONTACT_EMAIL not found. Declare it as envvar or define a default value.
+[UID:1788][399567] Child process with pid: 399861 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/passenger_wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 81, in __getattr__
+    self._setup(name)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 68, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 166, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/settings.py", line 146, in <module>
+    CONTACT_EMAIL = config('CONTACT_EMAIL')
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/decouple.py", line 248, in __call__
+    return self.config(*args, **kwargs)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/decouple.py", line 107, in __call__
+    return self.get(*args, **kwargs)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/decouple.py", line 92, in get
+    raise UndefinedValueError('{} not found. Declare it as envvar or define a default value.'.format(option))
+decouple.UndefinedValueError: CONTACT_EMAIL not found. Declare it as envvar or define a default value.
+[UID:1788][399567] Child process with pid: 399884 was killed by signal: 15, core dumped: no
+Not Found: /static/img/favicon.ico
+Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 96, in contact
+    send_mail(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 836, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+Not Found: /favicon.ico
+Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 96, in contact
+    send_mail(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 836, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+Not Found: /favicon.ico
+Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 143, in contact
+    send_mail(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 836, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 23, in index
+    send_mail(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 836, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 28, in index
+    send_mail(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 836, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 28, in index
+    send_mail(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 836, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 28, in index
+    send_mail(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 836, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 28, in index
+    send_mail(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 93, in open
+    self.connection.starttls(context=self.ssl_context)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 790, in starttls
+    self.sock = context.wrap_socket(self.sock,
+  File "/opt/alt/python310/lib64/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/opt/alt/python310/lib64/python3.10/ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "/opt/alt/python310/lib64/python3.10/ssl.py", line 1375, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'smtp.gmail.com'. (_ssl.c:1017)
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 28, in index
+    send_mail(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 93, in open
+    self.connection.starttls(context=self.ssl_context)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 790, in starttls
+    self.sock = context.wrap_socket(self.sock,
+  File "/opt/alt/python310/lib64/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/opt/alt/python310/lib64/python3.10/ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "/opt/alt/python310/lib64/python3.10/ssl.py", line 1375, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'smtp.gmail.com'. (_ssl.c:1017)
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 28, in index
+    send_mail(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 836, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 28, in index
+    send_mail(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 836, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 150, in contact
+    send_mail(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 836, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+Not Found: /favicon.ico
+Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 150, in contact
+    send_mail(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 836, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 150, in contact
+    send_mail(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 836, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+Not Found: /static/img/favicon.ico
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+[ERROR] [UID:1788][1803871] wsgiAppHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 313, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/urls.py", line 24, in <module>
+    path("",include('main.urls'))
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/urls.py", line 2, in <module>
+    from .views import *
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 2, in <module>
+    from .models import About, TeamMember, Service,ServicePrice,Appointment, GalleryImage
+ImportError: cannot import name 'GalleryImage' from 'main.models' (/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/models.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/deprecation.py", line 120, in __call__
+    response = response or self.get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 141, in response_for_exception
+    response = handle_uncaught_exception(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 182, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/urls.py", line 24, in <module>
+    path("",include('main.urls'))
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/urls.py", line 2, in <module>
+    from .views import *
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 2, in <module>
+    from .models import About, TeamMember, Service,ServicePrice,Appointment, GalleryImage
+ImportError: cannot import name 'GalleryImage' from 'main.models' (/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/models.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/deprecation.py", line 120, in __call__
+    response = response or self.get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 141, in response_for_exception
+    response = handle_uncaught_exception(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 182, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/urls.py", line 24, in <module>
+    path("",include('main.urls'))
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/urls.py", line 2, in <module>
+    from .views import *
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 2, in <module>
+    from .models import About, TeamMember, Service,ServicePrice,Appointment, GalleryImage
+ImportError: cannot import name 'GalleryImage' from 'main.models' (/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/models.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/deprecation.py", line 120, in __call__
+    response = response or self.get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 141, in response_for_exception
+    response = handle_uncaught_exception(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 182, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/urls.py", line 24, in <module>
+    path("",include('main.urls'))
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/urls.py", line 2, in <module>
+    from .views import *
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 2, in <module>
+    from .models import About, TeamMember, Service,ServicePrice,Appointment, GalleryImage
+ImportError: cannot import name 'GalleryImage' from 'main.models' (/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/models.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/deprecation.py", line 120, in __call__
+    response = response or self.get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 141, in response_for_exception
+    response = handle_uncaught_exception(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 182, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/urls.py", line 24, in <module>
+    path("",include('main.urls'))
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/urls.py", line 2, in <module>
+    from .views import *
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 2, in <module>
+    from .models import About, TeamMember, Service,ServicePrice,Appointment, GalleryImage
+ImportError: cannot import name 'GalleryImage' from 'main.models' (/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/models.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/deprecation.py", line 120, in __call__
+    response = response or self.get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 141, in response_for_exception
+    response = handle_uncaught_exception(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 182, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/urls.py", line 24, in <module>
+    path("",include('main.urls'))
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/urls.py", line 2, in <module>
+    from .views import *
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 2, in <module>
+    from .models import About, TeamMember, Service,ServicePrice,Appointment, GalleryImage
+ImportError: cannot import name 'GalleryImage' from 'main.models' (/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/models.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/deprecation.py", line 120, in __call__
+    response = response or self.get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 141, in response_for_exception
+    response = handle_uncaught_exception(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 182, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/urls.py", line 24, in <module>
+    path("",include('main.urls'))
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/urls.py", line 2, in <module>
+    from .views import *
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 2, in <module>
+    from .models import About, TeamMember, Service,ServicePrice,Appointment, GalleryImage
+ImportError: cannot import name 'GalleryImage' from 'main.models' (/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/models.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/deprecation.py", line 120, in __call__
+    response = response or self.get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 141, in response_for_exception
+    response = handle_uncaught_exception(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 182, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/urls.py", line 24, in <module>
+    path("",include('main.urls'))
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/urls.py", line 2, in <module>
+    from .views import *
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 2, in <module>
+    from .models import About, TeamMember, Service,ServicePrice,Appointment, GalleryImage
+ImportError: cannot import name 'GalleryImage' from 'main.models' (/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/models.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/wsgi.py", line 124, in __call__
+    response = self.get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 140, in get_response
+    response = self._middleware_chain(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 141, in response_for_exception
+    response = handle_uncaught_exception(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 182, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/urls.py", line 24, in <module>
+    path("",include('main.urls'))
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/urls.py", line 2, in <module>
+    from .views import *
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 2, in <module>
+    from .models import About, TeamMember, Service,ServicePrice,Appointment, GalleryImage
+ImportError: cannot import name 'GalleryImage' from 'main.models' (/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/models.py)
+[ERROR] [UID:1788][1803871] wsgiAppHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 313, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/urls.py", line 24, in <module>
+    path("",include('main.urls'))
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/urls.py", line 2, in <module>
+    from .views import *
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 2, in <module>
+    from .models import About, TeamMember, Service,ServicePrice,Appointment, GalleryImage
+ImportError: cannot import name 'GalleryImage' from 'main.models' (/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/models.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/deprecation.py", line 120, in __call__
+    response = response or self.get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 141, in response_for_exception
+    response = handle_uncaught_exception(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 182, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/urls.py", line 24, in <module>
+    path("",include('main.urls'))
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/urls.py", line 2, in <module>
+    from .views import *
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 2, in <module>
+    from .models import About, TeamMember, Service,ServicePrice,Appointment, GalleryImage
+ImportError: cannot import name 'GalleryImage' from 'main.models' (/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/models.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/deprecation.py", line 120, in __call__
+    response = response or self.get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 141, in response_for_exception
+    response = handle_uncaught_exception(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 182, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/urls.py", line 24, in <module>
+    path("",include('main.urls'))
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/urls.py", line 2, in <module>
+    from .views import *
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 2, in <module>
+    from .models import About, TeamMember, Service,ServicePrice,Appointment, GalleryImage
+ImportError: cannot import name 'GalleryImage' from 'main.models' (/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/models.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/deprecation.py", line 120, in __call__
+    response = response or self.get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 141, in response_for_exception
+    response = handle_uncaught_exception(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 182, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/urls.py", line 24, in <module>
+    path("",include('main.urls'))
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/urls.py", line 2, in <module>
+    from .views import *
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 2, in <module>
+    from .models import About, TeamMember, Service,ServicePrice,Appointment, GalleryImage
+ImportError: cannot import name 'GalleryImage' from 'main.models' (/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/models.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/deprecation.py", line 120, in __call__
+    response = response or self.get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 141, in response_for_exception
+    response = handle_uncaught_exception(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 182, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/urls.py", line 24, in <module>
+    path("",include('main.urls'))
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/urls.py", line 2, in <module>
+    from .views import *
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 2, in <module>
+    from .models import About, TeamMember, Service,ServicePrice,Appointment, GalleryImage
+ImportError: cannot import name 'GalleryImage' from 'main.models' (/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/models.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/deprecation.py", line 120, in __call__
+    response = response or self.get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 141, in response_for_exception
+    response = handle_uncaught_exception(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 182, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/urls.py", line 24, in <module>
+    path("",include('main.urls'))
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/urls.py", line 2, in <module>
+    from .views import *
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 2, in <module>
+    from .models import About, TeamMember, Service,ServicePrice,Appointment, GalleryImage
+ImportError: cannot import name 'GalleryImage' from 'main.models' (/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/models.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/deprecation.py", line 120, in __call__
+    response = response or self.get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 141, in response_for_exception
+    response = handle_uncaught_exception(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 182, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/urls.py", line 24, in <module>
+    path("",include('main.urls'))
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/urls.py", line 2, in <module>
+    from .views import *
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 2, in <module>
+    from .models import About, TeamMember, Service,ServicePrice,Appointment, GalleryImage
+ImportError: cannot import name 'GalleryImage' from 'main.models' (/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/models.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/deprecation.py", line 120, in __call__
+    response = response or self.get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 141, in response_for_exception
+    response = handle_uncaught_exception(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 182, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/urls.py", line 24, in <module>
+    path("",include('main.urls'))
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/urls.py", line 2, in <module>
+    from .views import *
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 2, in <module>
+    from .models import About, TeamMember, Service,ServicePrice,Appointment, GalleryImage
+ImportError: cannot import name 'GalleryImage' from 'main.models' (/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/models.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/wsgi.py", line 124, in __call__
+    response = self.get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 140, in get_response
+    response = self._middleware_chain(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 141, in response_for_exception
+    response = handle_uncaught_exception(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 182, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/salon/urls.py", line 24, in <module>
+    path("",include('main.urls'))
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/urls.py", line 2, in <module>
+    from .views import *
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 2, in <module>
+    from .models import About, TeamMember, Service,ServicePrice,Appointment, GalleryImage
+ImportError: cannot import name 'GalleryImage' from 'main.models' (/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/models.py)
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Internal Server Error: /gallery/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 89, in gallery
+    return render(request, 'main/portfolio.html')
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: main/portfolio.html
+Not Found: /favicon.ico
+Internal Server Error: /gallery/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 89, in gallery
+    #     return render(request, 'main/portfolio.html')
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: main/portfolio.html
+Not Found: /favicon.ico
+Internal Server Error: /gallery/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 89, in gallery
+    #     return render(request, 'main/portfolio.html')
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: main/portfolio.html
+Not Found: /favicon.ico
+Internal Server Error: /gallery/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 71, in gallery
+    return render(request, 'main/gallery.html', {'images': images})
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: main/gallery.html
+Not Found: /favicon.ico
+Internal Server Error: /gallery/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 71, in gallery
+    return render(request, 'main/gallery.html', {'images': images})
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: main/gallery.html
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Internal Server Error: /gallery/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 71, in gallery
+    return render(request, 'main/gallery.html', {'images': images})
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: main/gallery.html
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/main/views.py", line 28, in index
+    send_mail(
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 92, in send_mail
+    return mail.send()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/hightech/virtualenv/shearmovement.quantumcoresoftware.com/salon/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 836, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/opt/alt/python310/lib64/python3.10/socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /akcc1.php
+Not Found: /cc111.php
+Not Found: /cc111.php
+Not Found: /cc111.php
+Not Found: /static/img/favicon.ico
+Not Found: /wp-login.php
+Not Found: /wp-login.php
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/lib/lightbox/js/lightbox.min.map
+Not Found: /static/lib/lightbox/js/lightbox.min.map
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /wordpress/
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /cc111.php
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /akcc1.php
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /.well-known/security.txt
+Not Found: /.well-known/security.txt
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /.well-known/security.txt
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /robots.txt
+Not Found: /enhancecp
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /wordpress/
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /wordpress/
+Not Found: /wp-login.php
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /app/
+Not Found: /login/
+Not Found: /.env//.env
+Not Found: /.env.local//.env.local
+Not Found: /.env.dev//.env.dev
+Not Found: /.env.prod//.env.prod
+Not Found: /.env.staging//.env.staging
+Not Found: /.env.development//.env.development
+Not Found: /.env.production//.env.production
+Not Found: /.env.test//.env.test
+Not Found: /.env.backup//.env.backup
+Not Found: /.env.example//.env.example
+Not Found: /.env.sample//.env.sample
+Not Found: /.env.old//.env.old
+Not Found: /.env.bak//.env.bak
+Not Found: /.env.save//.env.save
+Not Found: /.env.orig//.env.orig
+Not Found: /.env.swp//.env.swp
+Not Found: /.env~//.env~
+Not Found: /.env.tmp//.env.tmp
+Not Found: /.env.dist//.env.dist
+Not Found: /admin/.env//admin/.env
+Not Found: /admin/.env.save//admin/.env.save
+Not Found: /admin/.env.bak//admin/.env.bak
+Not Found: /admin/.env.old//admin/.env.old
+Not Found: /api/.env//api/.env
+Not Found: /api/.env.save//api/.env.save
+Not Found: /api/.env.bak//api/.env.bak
+Not Found: /api/.env.old//api/.env.old
+Not Found: /app/.env//app/.env
+Not Found: /app/.env.save//app/.env.save
+Not Found: /app/.env.bak//app/.env.bak
+Not Found: /app/.env.old//app/.env.old
+Not Found: /config/.env//config/.env
+Not Found: /config/.env.save//config/.env.save
+Not Found: /config/.env.bak//config/.env.bak
+Not Found: /config/.env.old//config/.env.old
+Not Found: /src/.env//src/.env
+Not Found: /src/.env.save//src/.env.save
+Not Found: /src/.env.bak//src/.env.bak
+Not Found: /src/.env.old//src/.env.old
+Not Found: /public/.env//public/.env
+Not Found: /public/.env.save//public/.env.save
+Not Found: /public/.env.bak//public/.env.bak
+Not Found: /public/.env.old//public/.env.old
+Not Found: /assets/.env//assets/.env
+Not Found: /assets/.env.save//assets/.env.save
+Not Found: /assets/.env.bak//assets/.env.bak
+Not Found: /assets/.env.old//assets/.env.old
+Not Found: /includes/.env//includes/.env
+Not Found: /includes/.env.save//includes/.env.save
+Not Found: /includes/.env.bak//includes/.env.bak
+Not Found: /includes/.env.old//includes/.env.old
+Not Found: /lib/.env//lib/.env
+Not Found: /lib/.env.save//lib/.env.save
+Not Found: /lib/.env.bak//lib/.env.bak
+Not Found: /lib/.env.old//lib/.env.old
+Not Found: /application/.env//application/.env
+Not Found: /application/.env.save//application/.env.save
+Not Found: /application/.env.bak//application/.env.bak
+Not Found: /application/.env.old//application/.env.old
+Not Found: /system/.env//system/.env
+Not Found: /system/.env.save//system/.env.save
+Not Found: /system/.env.bak//system/.env.bak
+Not Found: /system/.env.old//system/.env.old
+Not Found: /core/.env//core/.env
+Not Found: /core/.env.save//core/.env.save
+Not Found: /core/.env.bak//core/.env.bak
+Not Found: /core/.env.old//core/.env.old
+Not Found: /modules/.env//modules/.env
+Not Found: /modules/.env.save//modules/.env.save
+Not Found: /modules/.env.bak//modules/.env.bak
+Not Found: /modules/.env.old//modules/.env.old
+Not Found: /plugins/.env//plugins/.env
+Not Found: /plugins/.env.save//plugins/.env.save
+Not Found: /plugins/.env.bak//plugins/.env.bak
+Not Found: /plugins/.env.old//plugins/.env.old
+Not Found: /themes/.env//themes/.env
+Not Found: /themes/.env.save//themes/.env.save
+Not Found: /themes/.env.bak//themes/.env.bak
+Not Found: /themes/.env.old//themes/.env.old
+Not Found: /vendor/.env//vendor/.env
+Not Found: /vendor/.env.save//vendor/.env.save
+Not Found: /vendor/.env.bak//vendor/.env.bak
+Not Found: /vendor/.env.old//vendor/.env.old
+Not Found: /storage/.env//storage/.env
+Not Found: /storage/.env.save//storage/.env.save
+Not Found: /storage/.env.bak//storage/.env.bak
+Not Found: /storage/.env.old//storage/.env.old
+Forbidden (CSRF cookie not set.): /
+Not Found: /.env
+Not Found: /.env.local
+Not Found: /.env.dev
+Not Found: /.env.prod
+Not Found: /.env.staging
+Not Found: /.env.development
+Not Found: /.env.production
+Not Found: /.env.test
+Not Found: /.env.backup
+Not Found: /.env.example
+Not Found: /.env.sample
+Not Found: /.env.old
+Not Found: /.env.bak
+Not Found: /.env.save
+Not Found: /.env.orig
+Not Found: /.env.swp
+Not Found: /.env~
+Not Found: /.env.tmp
+Not Found: /.env.dist
+Not Found: /api/.env
+Not Found: /api/.env.save
+Not Found: /api/.env.bak
+Not Found: /api/.env.old
+Not Found: /app/.env
+Not Found: /app/.env.save
+Not Found: /app/.env.bak
+Not Found: /app/.env.old
+Not Found: /config/.env
+Not Found: /config/.env.save
+Not Found: /config/.env.bak
+Not Found: /config/.env.old
+Not Found: /src/.env
+Not Found: /src/.env.save
+Not Found: /src/.env.bak
+Not Found: /src/.env.old
+Not Found: /public/.env
+Not Found: /public/.env.save
+Not Found: /public/.env.bak
+Not Found: /public/.env.old
+Not Found: /assets/.env
+Not Found: /assets/.env.save
+Not Found: /assets/.env.bak
+Not Found: /assets/.env.old
+Not Found: /includes/.env
+Not Found: /includes/.env.save
+Not Found: /includes/.env.bak
+Not Found: /includes/.env.old
+Not Found: /lib/.env
+Not Found: /lib/.env.save
+Not Found: /lib/.env.bak
+Not Found: /lib/.env.old
+Not Found: /application/.env
+Not Found: /application/.env.save
+Not Found: /application/.env.bak
+Not Found: /application/.env.old
+Not Found: /system/.env
+Not Found: /system/.env.save
+Not Found: /system/.env.bak
+Not Found: /system/.env.old
+Not Found: /core/.env
+Not Found: /core/.env.save
+Not Found: /core/.env.bak
+Not Found: /core/.env.old
+Not Found: /modules/.env
+Not Found: /modules/.env.save
+Not Found: /modules/.env.bak
+Not Found: /modules/.env.old
+Not Found: /plugins/.env
+Not Found: /plugins/.env.save
+Not Found: /plugins/.env.bak
+Not Found: /plugins/.env.old
+Not Found: /themes/.env
+Not Found: /themes/.env.save
+Not Found: /themes/.env.bak
+Not Found: /themes/.env.old
+Not Found: /vendor/.env
+Not Found: /vendor/.env.save
+Not Found: /vendor/.env.bak
+Not Found: /vendor/.env.old
+Not Found: /storage/.env
+Not Found: /storage/.env.save
+Not Found: /storage/.env.bak
+Not Found: /storage/.env.old
+Not Found: /phpinfo.php
+Not Found: /info.php
+Not Found: /php_info.php
+Not Found: /phpinfo
+Not Found: /test.php
+Not Found: /info1.php
+Not Found: /info2.php
+Not Found: /php.php
+Not Found: /pi.php
+Not Found: /i.php
+Not Found: /phpversion.php
+Not Found: /php_version.php
+Not Found: /serverinfo.php
+Not Found: /server.php
+Not Found: /debug.php
+Not Found: /diagnostic.php
+Not Found: /phptest.php
+Not Found: /check.php
+Not Found: /phpinfo.php.save
+Not Found: /info.php.save
+Not Found: /php_info.php.save
+Not Found: /test.php.save
+Not Found: /phpinfo.php.bak
+Not Found: /info.php.bak
+Not Found: /php_info.php.bak
+Not Found: /test.php.bak
+Not Found: /phpinfo.php.old
+Not Found: /info.php.old
+Not Found: /php_info.php.old
+Not Found: /test.php.old
+Not Found: /phpinfo.php.orig
+Not Found: /info.php.orig
+Not Found: /php_info.php.orig
+Not Found: /test.php.orig
+Not Found: /phpinfo.php.backup
+Not Found: /info.php.backup
+Not Found: /php_info.php.backup
+Not Found: /test.php.backup
+Not Found: /phpinfo.php~
+Not Found: /info.php~
+Not Found: /php_info.php~
+Not Found: /test.php~
+Not Found: /phpinfo.php.swp
+Not Found: /info.php.swp
+Not Found: /php_info.php.swp
+Not Found: /test.php.swp
+Not Found: /phpinfo.php.tmp
+Not Found: /info.php.tmp
+Not Found: /php_info.php.tmp
+Not Found: /test.php.tmp
+Not Found: /test/phpinfo.php
+Not Found: /test/info.php
+Not Found: /test/phpinfo.php.save
+Not Found: /test/info.php.save
+Not Found: /dev/phpinfo.php
+Not Found: /dev/info.php
+Not Found: /dev/phpinfo.php.save
+Not Found: /dev/info.php.save
+Not Found: /tmp/phpinfo.php
+Not Found: /tmp/info.php
+Not Found: /tmp/phpinfo.php.save
+Not Found: /tmp/info.php.save
+Not Found: /includes/phpinfo.php
+Not Found: /includes/info.php
+Not Found: /includes/phpinfo.php.save
+Not Found: /includes/info.php.save
+Not Found: /scripts/phpinfo.php
+Not Found: /scripts/info.php
+Not Found: /scripts/phpinfo.php.save
+Not Found: /scripts/info.php.save
+Not Found: /cgi-bin/phpinfo.php
+Not Found: /cgi-bin/info.php
+Not Found: /cgi-bin/phpinfo.php.save
+Not Found: /cgi-bin/info.php.save
+Not Found: /public/phpinfo.php
+Not Found: /public/info.php
+Not Found: /public/phpinfo.php.save
+Not Found: /public/info.php.save
+Not Found: /web/phpinfo.php
+Not Found: /web/info.php
+Not Found: /web/phpinfo.php.save
+Not Found: /web/info.php.save
+Not Found: /www/phpinfo.php
+Not Found: /www/info.php
+Not Found: /www/phpinfo.php.save
+Not Found: /www/info.php.save
+Not Found: /site/phpinfo.php
+Not Found: /site/info.php
+Not Found: /site/phpinfo.php.save
+Not Found: /site/info.php.save
+Not Found: /robots.txt
+Not Found: /enhancecp
+Not Found: /wp-includes/wlwmanifest.xml
+Not Found: /xmlrpc.php
+Not Found: /blog/wp-includes/wlwmanifest.xml
+Not Found: /web/wp-includes/wlwmanifest.xml
+Not Found: /wordpress/wp-includes/wlwmanifest.xml
+Not Found: /website/wp-includes/wlwmanifest.xml
+Not Found: /wp/wp-includes/wlwmanifest.xml
+Not Found: /news/wp-includes/wlwmanifest.xml
+Not Found: /2018/wp-includes/wlwmanifest.xml
+Not Found: /2019/wp-includes/wlwmanifest.xml
+Not Found: /shop/wp-includes/wlwmanifest.xml
+Not Found: /wp1/wp-includes/wlwmanifest.xml
+Not Found: /test/wp-includes/wlwmanifest.xml
+Not Found: /media/wp-includes/wlwmanifest.xml
+Not Found: /wp2/wp-includes/wlwmanifest.xml
+Not Found: /site/wp-includes/wlwmanifest.xml
+Not Found: /cms/wp-includes/wlwmanifest.xml
+Not Found: /sito/wp-includes/wlwmanifest.xml
+Not Found: /wp-login.php
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/lib/owlcarousel/+a+
+Not Found: /static/img/favicon.ico
+Not Found: /static/lib/lightbox/js/lightbox.min.map
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /robots.txt
+Not Found: /apps
+Not Found: /api/action
+Not Found: /api/actions
+Not Found: /_next/data
+Forbidden (Referer checking failed - no Referer.): /
+Not Found: /robots.txt
+Not Found: /media/services/OIP_17.jpeg/media/services/OIP%5f17.jpeg
+Not Found: /favicon.ico
+Not Found: /wordpress/
+Not Found: /robots.txt
+[UID:1788][4145124] Child process with pid: 4145278 was killed by signal: 15, core dumped: no
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /apps
+Not Found: /api/action
+Not Found: /api/actions
+Not Found: /_next/data
+Forbidden (Referer checking failed - no Referer.): /
+Not Found: /robots.txt
+Not Found: /apps
+Not Found: /api/action
+Not Found: /api/actions
+Not Found: /_next/data
+Forbidden (Referer checking failed - no Referer.): /
+Not Found: /apps
+Not Found: /api/action
+Not Found: /api/actions
+Not Found: /_next/data
+Forbidden (Referer checking failed - no Referer.): /
+Not Found: /wp-login.php
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /robots.txt
+Forbidden (Referer checking failed - no Referer.): /
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /apps
+Not Found: /api/action
+Not Found: /api/actions
+Not Found: /_next/data
+Forbidden (Referer checking failed - no Referer.): /
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /robots.txt
+Forbidden (Referer checking failed - no Referer.): /
+Forbidden (Referer checking failed - no Referer.): /
+Forbidden (Referer checking failed - no Referer.): /
+Forbidden (Referer checking failed - no Referer.): /
+Forbidden (Referer checking failed - no Referer.): /
+Forbidden (Referer checking failed - no Referer.): /
+Forbidden (Referer checking failed - no Referer.): /
+Forbidden (Referer checking failed - no Referer.): /
+Forbidden (Referer checking failed - no Referer.): /
+Forbidden (Referer checking failed - no Referer.): /
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /wp-json/wc/v3
+Not Found: /magento_version
+Not Found: /index.php
+Not Found: /index.php
+Not Found: /index.php
+Not Found: /index.php
+Not Found: /wp-json/
+Not Found: /wp-json/wc/v3
+Not Found: /magento_version
+Not Found: /index.php
+Not Found: /index.php
+Not Found: /index.php
+Not Found: /index.php
+Not Found: /wp-json/
+Not Found: /robots.txt
+Not Found: /wp-json/wc/v3
+Not Found: /magento_version
+Not Found: /index.php
+Not Found: /index.php
+Not Found: /index.php
+Not Found: /index.php
+Not Found: /wp-json/
+Not Found: /wp-json/wc/v3
+Not Found: /magento_version
+Not Found: /index.php
+Not Found: /index.php
+Not Found: /index.php
+Not Found: /index.php
+Not Found: /wp-json/
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /favicon.ico
+Not Found: /wp-content/plugins/hellopress/wp_filemanager.php
+Not Found: /rip.php
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/lib/owlcarousel/+a+
+Not Found: /static/lib/lightbox/js/lightbox.min.map
+Not Found: /static/img/favicon.ico
+Not Found: /static/lib/owlcarousel/+a+
+Not Found: /static/lib/lightbox/js/lightbox.min.map
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /api/image/logo
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /transport/
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /_ignition/execute-solution
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Not Found: /static/img/favicon.ico
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /static/img/favicon.ico
+Traceback (most recent call last):
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/passenger_wsgi.py", line 17, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/hightech/shearmovement.quantumcoresoftware.com/salon/passenger_wsgi.py", line 17, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1788][2928482] Child process with pid: 2928488 was killed by signal: 15, core dumped: no
+Not Found: /static/css/hero-image.jpg
+Not Found: /static/css/hero-image.jpg
+Not Found: /static/css/hero-image.jpg
+Not Found: /static/css/hero-image.jpg

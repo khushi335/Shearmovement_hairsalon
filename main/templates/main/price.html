@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Price - Shear Movement{% endblock %}
+
+{% block content %}
+<!-- Page Header Start -->
+<div class="page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Price</h2>
+            </div>
+            <div class="col-12">
+                <a href="{% url 'index' %}">Home</a>
+                <a href="{% url 'price' %}">Price</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Page Header End -->
+
+<!-- Pricing Start -->
+<div class="price">
+    <div class="container">
+        <div class="section-header text-center">
+            <p>Our Best Pricing</p>
+            <div class="d-flex justify-content-center">
+                <h2 class="no-wrap">We Provide Best Price in the City</h2>
+            </div>
+        </div>
+        <div class="row">
+            {% for service in services %}
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="price-item">
+                    <div class="price-img">
+                        {% if service.image %}
+                        <img src="{{ service.image.url }}" alt="{{ service.name }}">
+                        {% else %}
+                        <img src="{% static 'img/default-service.jpg' %}" alt="{{ service.name }}">
+                        {% endif %}
+                    </div>
+                    <div class="price-text">
+                        <h2>{{ service.name }}</h2>
+                        <h3>${{ service.price }}</h3>
+                    </div>
+                </div>
+            </div>
+            {% empty %}
+            <p class="text-center">No services available right now.</p>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- Pricing End -->
+{% endblock %}

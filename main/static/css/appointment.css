@@ -1,0 +1,82 @@
+/* Appointment Page Styles */
+
+.appointment-section {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.appointment-section h1 {
+    text-align: center;
+    color: #D5B981;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.appointment-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fdf9f1;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.appointment-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.appointment-form input,
+.appointment-form select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1.5px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.appointment-form input:focus,
+.appointment-form select:focus {
+    border-color: #D5B981;
+    outline: none;
+}
+
+.price-display {
+    margin: 15px 0;
+    font-weight: 600;
+    color: #D5B981;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.btn-submit {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    background-color: #D5B981;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #c5a76e;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .appointment-form {
+        padding: 25px;
+    }
+}

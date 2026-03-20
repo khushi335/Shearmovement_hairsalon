@@ -1,0 +1,263 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Home - Shear Movement{% endblock %}
+
+{% block content %}
+
+        <!-- Hero Start -->
+        <div class="hero">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="hero-text">
+                            <h1>Shear Movement</h1>
+                            <p>Shear Movement is a modern, trendsetting salon dedicated to providing exceptional hair and grooming services with precision and style. Our expert barbers and stylists specialize in cutting-edge haircuts, classic shaves, vibrant coloring, and personalized styling to help you express your unique look.</p>
+                            <!-- <a class="btn" href="https://htmlcodex.com/barber-shop-template">Download Now</a> -->
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-none d-md-block">
+                        <div class="hero-image">
+                            <img src="{% static 'img/7a55deef-0809-4ef0-9fac-2ac618c95755-removebg-preview.png' %}" alt="Hero Image">
+                        </div>
+                    </div>
+                </div>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+
+
+        <!-- About Start -->
+<div class="about">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 col-md-6">
+                <div class="about-img">
+                    {% if about.image %}
+                        <img src="{{ about.image.url }}" alt="About Image">
+                    {% else %}
+                        <img src="{% static 'img/480867072_612234244946751_9084005137758583626_n (1).jpg' %}" alt="About Image">
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-6">
+                <div class="section-header text-left">
+                    <p>{{ about.subtitle }}</p>
+                    <h2>{{ about.title }}</h2>
+                </div>
+                <div class="about-text">
+                    {% for paragraph in about.get_paragraph_list %}
+                        <p>{{ paragraph }}</p>
+                    {% endfor %}
+                    {% if about.button_link %}
+                        <a class="btn" href="{{ about.button_link }}">{{ about.button_text }}</a>
+                    {% else %}
+                        <a class="btn" href="#">{{ about.button_text }}</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- About End -->
+
+
+        <!-- Service Start -->
+<div class="service">
+    <div class="container">
+        <div class="section-header text-center">
+            <p>Our Salon Services</p>
+            <div class="d-flex justify-content-center">
+                <h2 class="no-wrap">Best Salon and Barber Services</h2>
+            </div>
+        </div>
+        <div class="row">
+            {% for service in services %}
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="{{ service.image.url }}" alt="{{ service.title }}">
+                    </div>
+                    <h3>{{ service.title }}</h3>
+                    <p>{{ service.description }}</p>
+                    <a class="btn" href="{% url 'appointment' %}">Appointment</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+        <!-- Service End -->
+
+
+        <!-- Pricing Start -->
+<div class="price">
+    <div class="container">
+        <div class="section-header text-center">
+            <p>Our Best Pricing</p>
+            <div class="d-flex justify-content-center">
+                <h2 class="no-wrap">We Provide Best Price in the City</h2>
+            </div>
+        </div>
+        <div class="row">
+            {% for service in prices %}
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="price-item">
+                    <div class="price-img">
+                        {% if service.image %}
+                        <img src="{{ service.image.url }}" alt="{{ service.name }}">
+                        {% else %}
+                        <img src="{% static 'img/default-service.jpg' %}" alt="{{ service.name }}">
+                        {% endif %}
+                    </div>
+                    <div class="price-text">
+                        <h2>{{ service.name }}</h2>
+                        <h3>${{ service.price }}</h3>
+                    </div>
+                </div>
+            </div>
+            {% empty %}
+            <p class="text-center">No services available right now.</p>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+        <!-- Pricing End -->
+
+        <!-- Team Start -->
+<div class="team">
+    <div class="container">
+        <div class="section-header text-center">
+            <p>Our Barber Team</p>
+            <div class="d-flex justify-content-center">
+                <h2 class="no-wrap">Meet Our Hair Cut Expert Barber</h2>
+            </div>
+        </div>
+        <div class="row">
+            {% for member in team_members %}
+            <div class="col-lg-3 col-md-6">
+                <div class="team-item">
+                    <div class="team-img">
+                        {% if member.image %}
+                            <img src="{{ member.image.url }}" alt="{{ member.name }}">
+                        {% else %}
+                            <img src="{% static 'img/team-default.jpg' %}" alt="{{ member.name }}">
+                        {% endif %}
+                    </div>
+                    <div class="team-text">
+                        <h2>{{ member.name }}</h2>
+                        <p>{{ member.role }}</p>
+                    </div>
+                </div>
+            </div>
+            {% empty %}
+            <p>No team members found.</p>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+        <!-- Team End -->
+        
+        <section id="testimonials" class="py-5">
+    <div class="container">
+        <!-- Section Heading -->
+        <h1 class="section-title text-center mb-5">Testimonials</h1>
+
+        <div class="row justify-content-center g-4">
+
+            <!-- Testimonial 1 -->
+            <div class="col-12 col-sm-6 col-md-3">
+                <label for="img1-checkbox" class="testimonial-card">
+                    <img src="{% static 'img/test1.jpg' %}" alt="Testimonial 1">
+                </label>
+                <input type="checkbox" id="img1-checkbox" class="lightbox-checkbox">
+                <div class="lightbox">
+                    <label for="img1-checkbox" class="lightbox-close"></label>
+                    <img src="{% static 'img/test1.jpg' %}" alt="Testimonial 1">
+                </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="col-12 col-sm-6 col-md-3">
+                <label for="img2-checkbox" class="testimonial-card">
+                    <img src="{% static 'img/test2.jpg' %}" alt="Testimonial 2">
+                </label>
+                <input type="checkbox" id="img2-checkbox" class="lightbox-checkbox">
+                <div class="lightbox">
+                    <label for="img2-checkbox" class="lightbox-close"></label>
+                    <img src="{% static 'img/test2.jpg' %}" alt="Testimonial 2">
+                </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="col-12 col-sm-6 col-md-3">
+                <label for="img3-checkbox" class="testimonial-card">
+                    <img src="{% static 'img/test3.jpg' %}" alt="Testimonial 3">
+                </label>
+                <input type="checkbox" id="img3-checkbox" class="lightbox-checkbox">
+                <div class="lightbox">
+                    <label for="img3-checkbox" class="lightbox-close"></label>
+                    <img src="{% static 'img/test3.jpg' %}" alt="Testimonial 3">
+                </div>
+            </div>
+
+            <!-- Testimonial 4 -->
+            <div class="col-12 col-sm-6 col-md-3">
+                <label for="img4-checkbox" class="testimonial-card">
+                    <img src="{% static 'img/test4.jpg' %}" alt="Testimonial 4">
+                </label>
+                <input type="checkbox" id="img4-checkbox" class="lightbox-checkbox">
+                <div class="lightbox">
+                    <label for="img4-checkbox" class="lightbox-close"></label>
+                    <img src="{% static 'img/test4.jpg' %}" alt="Testimonial 4">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+        
+        <!-- Contact Start -->
+<div class="section-header text-center" style="margin-top: 90px;">
+    <p>Get In Touch</p>
+    <h2 class="no-wrap">Contact Us</h2>
+</div>
+<div class="contact" style="margin-bottom: 90px;">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="{% static 'img/7a55deef-0809-4ef0-9fac-2ac618c95755-removebg-preview.png' %}" alt="Contact" class="img-fluid">
+                </div>
+                <div class="col-md-8">
+                    <div class="contact-form">
+                        <form method="POST">
+                            {% csrf_token %}
+                            <div class="control-group">
+                                <input type="text" class="form-control" name="name" placeholder="Your Name" required />
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control" name="email" placeholder="Your Email" required />
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control" name="subject" placeholder="Subject" required />
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control" name="message" placeholder="Message" required></textarea>
+                            </div>
+                            <div>
+                                <button class="btn" type="submit">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- Contact End -->
+
+{% endblock %}

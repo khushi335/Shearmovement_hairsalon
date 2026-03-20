@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Contact - Shear Movement{% endblock %}
+
+{% block content %}
+
+<!-- Page Header Start -->
+<div class="page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Contact</h2>
+            </div>
+            <div class="col-12">
+                <a href="{% url 'index' %}">Home</a>
+                <a href="{% url 'contact' %}">Contact</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Page Header End -->
+
+<!-- Contact Start -->
+<div class="section-header text-center" style="margin-top: 90px;">
+    <p>Get In Touch</p>
+    <h2>Contact Us</h2>
+</div>
+<div class="contact" style="margin-bottom: 90px;">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="{% static 'img/7a55deef-0809-4ef0-9fac-2ac618c95755-removebg-preview.png' %}" alt="Contact" class="img-fluid">
+                </div>
+                <div class="col-md-8">
+                    <div class="contact-form">
+                        <form method="POST">
+                            {% csrf_token %}
+                            <div class="control-group">
+                                <input type="text" class="form-control" name="name" placeholder="Your Name" required />
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control" name="email" placeholder="Your Email" required />
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control" name="subject" placeholder="Subject" required />
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control" name="message" placeholder="Message" required></textarea>
+                            </div>
+                            <div>
+                                <button class="btn" type="submit">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact End -->
+
+{% endblock %}

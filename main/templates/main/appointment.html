@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<section class="appointment-section">
+    <div class="container">
+        <h1>Make an Appointment</h1>
+        <form class="appointment-form" method="post">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="service">Service Type:</label>
+                <select id="service" name="service" required onchange="showPrice()">
+                    <option value="">Select Service</option>
+                    <option value="Hair Cut">Hair Cut</option>
+                    <option value="Hair Wash">Hair Wash</option>
+                    <option value="Hair Straightening">Hair Straightening</option>
+                    <option value="Facial">Facial</option>
+                    <option value="Wedding Haircut">Wedding Haircut</option>
+                    <option value="Massage">Massage</option>
+                    <option value="Hair Styling">Hair Styling</option>
+                    <option value="Scalp Treatment">Scalp Treatment</option>
+                </select>
+            </div>
+
+            <div id="price-display" class="price-display">Price: -</div>
+
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Appointment Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="time">Appointment Time:</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+
+            <button type="submit" class="btn-submit">Book Appointment</button>
+        </form>
+    </div>
+</section>
+
+<script>
+    function showPrice() {
+        const service = document.getElementById('service').value;
+        const priceDisplay = document.getElementById('price-display');
+        let price = '-';
+
+        switch(service) {
+            case 'Hair Cut': price = '$30'; break;
+            case 'Hair Wash': price = '$15'; break;
+            case 'Hair Straightening': price = '$80'; break;
+            case 'Facial': price = '$50'; break;
+            case 'Wedding Haircut': price = '$120'; break;
+            case 'Massage': price = '$60'; break;
+            case 'Hair Styling': price = '$45'; break;
+            case 'Scalp Treatment': price = '$55'; break;
+        }
+        priceDisplay.textContent = 'Price: ' + price;
+    }
+
+    // Run on page load to show price if service is pre-selected
+    showPrice();
+</script>
+{% endblock %}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}Barber X - Barber Shop{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Barber, Haircut, Barber Shop">
+    <meta name="description" content="Professional barber shop website.">
+
+    <link rel="icon" href="{% static 'img/favicon.ico' %}">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'lib/animate/animate.min.css' %}">
+    <link rel="stylesheet" href="{% static 'lib/owlcarousel/assets/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'lib/lightbox/css/lightbox.min.css' %}">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/appointment.css' %}">
+</head>
+
+<body>
+{% if messages %}
+    <div id="message-container">
+        {% for message in messages %}
+            <div class="alert {% if message.tags %}{{ message.tags }}{% endif %}">
+                {{ message }}
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}
+    
+    <!-- Top Bar Start -->
+    <div class="top-bar d-none d-md-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="top-bar-left">
+                        <div class="text">
+                            <h2>8:00 - 9:00</h2>
+                            <p>Opening Hour Mon - Fri</p>
+                        </div>
+                        <div class="text">
+                            <h2>202-332-2297</h2>
+                            <p>Call Us For Appointment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="top-bar-right">
+                        <div class="social">
+                            <a href="https://www.google.com/maps/place/Shear+Movement/@38.9211638,-76.9969678,17z/data=!3m1!4b1!4m6!3m5!1s0x89b7c81cdbc5f2ab:0x87179ec29b2dba32!8m2!3d38.9211638!4d-76.9943929!16s%2Fg%2F12q4xcb33?entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/ShearMovementBarbershop/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Bar End -->
+
+    <!-- Nav Bar Start -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <!--<a href="{% url 'index' %}" class="navbar-brand shear-logo">Shear <span>Movement</span></a>-->
+            <a href="{% url 'index' %}" class="navbar-brand shear-logo">
+                <img src="{% static 'img/los.png' %}" alt="Shear Movement" height="90" width="150">
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <a href="{% url 'index' %}" class="nav-item nav-link">Home</a>
+                    <a href="{% url 'about' %}" class="nav-item nav-link">About</a>
+                    <a href="{% url 'service' %}" class="nav-item nav-link">Service</a>
+                    <a href="{% url 'price' %}" class="nav-item nav-link">Price</a>
+                    <a href="{% url 'team' %}" class="nav-item nav-link">Barber</a>
+                    <a href="{% url 'gallery' %}" class="nav-item nav-link">Gallery</a>
+                    <a href="{% url 'contact' %}" class="nav-item nav-link">Contact</a>
+                    <a href="{% url 'appointment' %}" class="btn-appointment">Book Appointment</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav Bar End -->
+
+    <!-- Main Content -->
+    <main>
+        {% block content %}
+        <!-- Page-specific content goes here -->
+        {% endblock %}
+    </main>
+
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="footer-contact">
+                                <h2>Salon Address</h2>
+                                <p><i class="fa fa-map-marker-alt"></i>2350 Washington Place NE 20018 suite 135</p>
+                                <p><i class="fa fa-phone-alt"></i>202-332-2297</p>
+                                <p><i class="fa fa-envelope"></i>s_jubutler@yahoo.com</p>
+                                <div class="footer-social">
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/ShearMovementBarbershop/"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="footer-link">
+                                <h2>Quick Links</h2>
+                                <a href="#">Terms of use</a>
+                                <a href="#">Privacy policy</a>
+                                <a href="#">Cookies</a>
+                                <a href="#">Help</a>
+                                <a href="#">FAQs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="footer-newsletter">
+                        <h2>Newsletter</h2>
+                        <p>Subscribe to receive our latest updates and offers.</p>
+                        <div class="form">
+                            <input class="form-control" placeholder="Email goes here">
+                            <button class="btn">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container copyright">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; <a href="#">Shear Movement</a>, All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Designed By <a href="https://quantumcoresoftware.com/">Quantumcore Software</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'lib/easing/easing.min.js' %}"></script>
+    <script src="{% static 'lib/owlcarousel/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'lib/isotope/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'lib/lightbox/js/lightbox.min.js' %}"></script>
+
+    <!-- Custom JS -->
+    <script src="{% static 'js/main.js' %}"></script>
+
+    {% block extra_js %}{% endblock %}
+</body>
+</html>
