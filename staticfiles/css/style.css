@@ -1233,3 +1233,186 @@ a:focus {
         white-space: normal;      /* Allow wrapping on very small screens */
     }
 }
+
+
+
+
+
+
+/* --- Core Variables --- */
+:root {
+    --quantum-amber: linear-gradient(135deg, #FFBF00 0%, #FF8C00 100%);
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --tech-blue: #4D5FFF; /* Your requested tech blue */
+}
+
+/* --- Entrance & Reveal Animations --- */
+.initial-hide {
+    opacity: 0;
+    transition: all 1.2s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+/* Desktop initial offsets */
+.spatial-sidebar.initial-hide { transform: translateY(-50%) translateX(-50px); }
+.chat-spatial-trigger.initial-hide { transform: translateY(50px); }
+
+/* Reveal state triggered by JS */
+.initial-hide.reveal {
+    opacity: 1;
+}
+.spatial-sidebar.reveal { transform: translateY(-50%) translateX(0); }
+.chat-spatial-trigger.reveal { transform: translateY(0); }
+
+/* --- Sidebar Navigation --- */
+.spatial-sidebar {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    z-index: 10000;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.spatial-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    border-radius: 100px;
+    color: var(--tech-blue); /* Default Blue Color */
+    text-decoration: none;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+    width: 54px;
+    height: 54px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* --- Specific Brand Colors (Before Hover) --- */
+.spatial-item.fb i { color: #1877F2; } /* Facebook Blue */
+.spatial-item.wa i { color: #25D366; } /* WhatsApp Green */
+.spatial-item.li i { color: #0077B5; } /* LinkedIn Blue */
+
+/* --- Hover Effects --- */
+.spatial-item:hover {
+    width: 160px;
+    background: var(--quantum-amber);
+    color: #111 !important; /* Turns text/icons dark for contrast against amber */
+    transform: scale(1.08) translateX(10px);
+    box-shadow: 0 20px 40px rgba(255, 191, 0, 0.4);
+}
+
+.spatial-item:hover i {
+    color: #111 !important; /* Forces icon to turn dark on hover */
+}
+
+/* --- Shared Icons & Typography --- */
+.spatial-item i { 
+    font-size: 22px; 
+    min-width: 24px; 
+    text-align: center; 
+    transition: color 0.3s ease;
+}
+
+.spatial-text { 
+    margin-left: 15px; 
+    font-weight: 700; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    font-size: 11px; 
+    opacity: 0; 
+    transition: 0.3s; 
+}
+
+.spatial-item:hover .spatial-text { 
+    opacity: 1; 
+}
+
+/* --- Custom Chat Trigger (Amber Button) --- */
+.chat-spatial-trigger {
+    position: fixed;
+    right: 30px;
+    bottom: 80px;
+    z-index: 10000;
+    width: 60px;
+    height: 60px;
+    background: var(--quantum-amber);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 15px 35px rgba(255, 191, 0, 0.3);
+    transition: all 0.4s ease;
+    color: #111;
+    font-size: 24px;
+}
+
+.chat-spatial-trigger:hover {
+    transform: scale(1.1) rotate(-5deg);
+    box-shadow: 0 20px 45px rgba(255, 191, 0, 0.5);
+}
+
+.chat-tooltip {
+    position: absolute;
+    right: 75px;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.chat-spatial-trigger:hover .chat-tooltip {
+    opacity: 1;
+}
+
+/* --- Mobile Optimization --- */
+@media (max-width: 768px) {
+    .spatial-sidebar {
+        top: auto;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%) translateY(100px); /* Offset for slide-up */
+        flex-direction: row;
+        background: rgba(0,0,0,0.8); /* Darker for mobile legibility */
+        padding: 10px 20px;
+        border-radius: 50px;
+        width: auto;
+        border: 1px solid var(--glass-border);
+    }
+    
+    /* Animation fix for mobile center alignment */
+    .spatial-sidebar.reveal { 
+        transform: translateX(-50%) translateY(0); 
+    }
+
+    .chat-spatial-trigger {
+        bottom: auto;
+        top: 60px; /* Moves to top-right on mobile to avoid blocking the dock */
+        right: 20px;
+        width: 52px;
+        height: 52px;
+    }
+    
+    .chat-tooltip { display: none; }
+    
+    .spatial-item:active { 
+        transform: scale(1.2); 
+    }
+    
+    /* Keep width constant on mobile hover to avoid layout shifts */
+    .spatial-item:hover {
+        width: 54px; 
+    }
+}
