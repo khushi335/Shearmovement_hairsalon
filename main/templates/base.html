@@ -115,11 +115,8 @@
                                 <p><i class="fa fa-phone-alt"></i>202-332-2297</p>
                                 <p><i class="fa fa-envelope"></i>s_jubutler@yahoo.com</p>
                                 <div class="footer-social">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
                                     <a href="https://www.facebook.com/ShearMovementBarbershop/"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://www.instagram.com/shearmovement"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -159,6 +156,77 @@
         </div>
     </footer>
     <!-- Footer End -->
+    <!-- Sidebar -->
+    <nav class="spatial-sidebar initial-hide" id="socialSidebar">
+        <a href="https://www.facebook.com/ShearMovementBarbershop/" target="_blank" class="spatial-item fb">
+            <i class="fab fa-facebook-f"></i>
+            <span class="spatial-text">Facebook</span>
+        </a>
+
+        <a href="https://wa.me/12023322297" target="_blank" class="spatial-item wa">
+            <i class="fab fa-whatsapp"></i>
+            <span class="spatial-text">Whatsapp</span>
+        </a>
+        
+        <a href="https://www.instagram.com/shearmovement" target="_blank" class="spatial-item in">
+            <i class="fab fa-instagram"></i>
+            <span class="spatial-text">Instagram</span>
+        </a>
+    </nav>
+
+    <!-- Chat Trigger Button -->
+<div class="chat-spatial-trigger initial-hide" id="chatWrapper" onclick="toggleChat()">
+    <i class="fas fa-comment-dots"></i>
+    <span class="chat-tooltip">Live Support</span>
+</div>
+
+<!-- Tawk.to Script -->
+<script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+
+    (function () {
+        var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+
+        s1.async = true;
+
+        /* Your New Tawk.to Widget */
+        s1.src = 'https://embed.tawk.to/6a33c4de119a1f1d46e074bc/1jrd3i2av';
+
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+
+    /* Open/Close Chat */
+    function toggleChat() {
+        if (typeof Tawk_API !== 'undefined') {
+            Tawk_API.toggle();
+        }
+    }
+
+    /* Hide Default Widget Bubble */
+    Tawk_API.onLoad = function () {
+        Tawk_API.hideWidget();
+    };
+
+    /* Reveal Button After Page Load */
+    window.addEventListener('load', function () {
+        setTimeout(function () {
+            var socialSidebar = document.getElementById('socialSidebar');
+            var chatWrapper = document.getElementById('chatWrapper');
+
+            if (socialSidebar) {
+                socialSidebar.classList.add('reveal');
+            }
+
+            if (chatWrapper) {
+                chatWrapper.classList.add('reveal');
+            }
+        }, 800);
+    });
+</script>
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
